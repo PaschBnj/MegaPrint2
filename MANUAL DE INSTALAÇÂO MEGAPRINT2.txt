@@ -5,7 +5,7 @@
 
 -set as configurações da empresa e impressora
 
-   crie um arquivo txt com nome de config.txt na mesma pasta do .exe do programa (dist/MegaPrint2). o txt deve conter
+   crie um arquivo txt com nome de config.txt na mesma pasta do .exe do programa (dist/MegaPrint2/MegaPrint2.exe). o txt deve conter
    2  linhas apenas sendo a primeira com o acesso do restaurante (senha  padrão criada para o waychef da empresa exemplo: Pizzaria2300@), e a segunda contendo o nome    da impressora
 
 -(se a impressora for de rede) cadastrar nome para impressora de rede
@@ -29,3 +29,4 @@
 
    se Deus quiser esse codigo não vai dar problema sozinho, a não ser que o cliente fuçe nas configurações e nos arquivos dele, então é só 
    relaxar e deixar o cliente se esbaldar de vender!
+
