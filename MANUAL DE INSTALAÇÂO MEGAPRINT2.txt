@@ -1,0 +1,31 @@
+-Baixar repositorio git
+
+   instale o zip do repositorio em: https://github.com/PaschBnj/MegaPrint2  e extraia
+   todos os arquivos para uma pasta nova (ou vazia) em documentos
+
+-set as configurações da empresa e impressora
+
+   crie um arquivo txt com nome de config.txt na mesma pasta do .exe do programa (dist/MegaPrint2). o txt deve conter
+   2  linhas apenas sendo a primeira com o acesso do restaurante (senha  padrão criada para o waychef da empresa exemplo: Pizzaria2300@), e a segunda contendo o nome    da impressora
+
+-(se a impressora for de rede) cadastrar nome para impressora de rede
+
+   cadastrar um nome personalizado para a impressora de rede e  colocar este nome no config.txt
+
+-criar atalhos do .exe
+
+   crie dois atalhos, um coloque na area de trabalho e outro coloque na pasta inicializar no PC (digitando win+R: shell:startup)
+
+-conecte o programa no webhook do botconversa
+
+   no URL do webhook na integração do botconversa: após /webhook digite /*acesso da empresa* (devera ficar algo como           "https://megaprint2.onrender.com/webhook/Pizzaria2300@")
+   clique em teste no botconversa, se sair um papel pequeno escrito {RespostaLeadX} PARABENS! está configurado, NÂO ESQUEÇA DE SCROLLAR PARA BAIXO E APERTAR SALVAR, o     bot conversa esconde esse botão e eu sempre esqueço de apertar, ai mesmo depois de testar e dar certo, se voce sair sem apertar salvar ele nao vai funcionar
+
+-teste final
+
+   mande um pedido de teste para o bot e veja se ele imprime corretamente!
+
+-se divirta!
+
+   se Deus quiser esse codigo não vai dar problema sozinho, a não ser que o cliente fuçe nas configurações e nos arquivos dele, então é só 
+   relaxar e deixar o cliente se esbaldar de vender!
