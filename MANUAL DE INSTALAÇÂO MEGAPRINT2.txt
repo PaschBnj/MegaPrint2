@@ -14,7 +14,7 @@
 
 -criar atalhos do .exe
 
-   crie dois atalhos, um coloque na area de trabalho e outro coloque na pasta inicializar no PC (digitando win+R: shell:startup)
+   crie dois atalhos do arquivo .exe, um coloque na area de trabalho e outro coloque na pasta inicializar no PC (digitando win+R: shell:startup)
 
 -conecte o programa no webhook do botconversa
 
@@ -29,4 +29,5 @@
 
    se Deus quiser esse codigo não vai dar problema sozinho, a não ser que o cliente fuçe nas configurações e nos arquivos dele, então é só 
    relaxar e deixar o cliente se esbaldar de vender!
+
 
