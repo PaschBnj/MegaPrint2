@@ -2,6 +2,7 @@ import requests
 import time
 import win32print
 import os
+import sys
 import json
 
 # ================= CONFIGURAÇÃO =================
@@ -112,3 +113,4 @@ def iniciar():
 
 if __name__ == "__main__":
     iniciar()
+
